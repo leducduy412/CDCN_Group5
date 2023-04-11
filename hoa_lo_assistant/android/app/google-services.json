@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585580458035",
+    "project_id": "hoa-lo-assistant",
+    "storage_bucket": "hoa-lo-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585580458035:android:5d186cd697e774976b3346",
+        "android_client_info": {
+          "package_name": "com.cdcng5.hoaloassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585580458035-0ve5q53gp6b29t27o3bmicrtu29sq1bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2eTH8yinU5kQzpHATSQlCSwE3RGzha5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585580458035-0ve5q53gp6b29t27o3bmicrtu29sq1bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
