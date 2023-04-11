@@ -29,6 +29,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  google_fonts: ^4.0.3
   flutter:
     sdk: flutter
 
@@ -53,11 +54,20 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  uses-material-design: true
+  assets:
+    - assets/button/nut_next.png
+    - assets/background/bg.png
+    - assets/images/ca_chot.png
+    - assets/images/may_chem.png
+    - assets/images/phong_giam.png
+    - assets/images/trai_nam.png
+    - assets/images/trai_nu.png
+    - assets/images/tu_chinh_tri.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-  uses-material-design: true
+  
 
   # To add assets to your application, add an assets section, like this:
   # assets:
