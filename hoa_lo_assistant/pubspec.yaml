@@ -56,6 +56,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/image/background/main_screen.png
     - assets/icon/nut_next.png
     - assets/image/background/bg.png
     - assets/image/ca_chot.png
