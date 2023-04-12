@@ -14,8 +14,10 @@ class AppBarTop extends StatelessWidget implements PreferredSizeWidget {
     return Container(
       height: 100,
       decoration: BoxDecoration(
-        color: Color(0xFFD5C5A9),
-      ),
+          color: Color(0xFFD5C5A9),
+          border: Border(
+            bottom: BorderSide(width: 1.0, color: Colors.black),
+          )),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
