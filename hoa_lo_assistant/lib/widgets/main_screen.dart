@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hoa_lo_assistant/widgets/option_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -17,7 +18,7 @@ class _MainScreenState extends State<MainScreen> {
         //width: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("image/background/main_screen.png"),
+            image: AssetImage('assets/image/background/main_screen.png'),
           ),
         ),
         child: Center(
@@ -25,7 +26,12 @@ class _MainScreenState extends State<MainScreen> {
             children: [
               const Padding(padding: EdgeInsets.symmetric(vertical: 285)),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => OptionScreen()),
+                  );
+                },
                 child: Container(
                   width: 160,
                   height: 60,
