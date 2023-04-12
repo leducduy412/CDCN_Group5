@@ -21,33 +21,41 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ),
         child: Center(
-          child: TextButton(
-            onPressed: () {},
-            child: Container(
-              width: 180,
-              height: 70,
-              decoration: const BoxDecoration(
-                gradient: LinearGradient(
-                  begin: Alignment.centerLeft,
-                  end: Alignment.centerRight,
-                  colors: [
-                    Color.fromRGBO(249, 164, 9, 1),
-                    Color.fromRGBO(242, 191, 32, 1),
-                    Color.fromRGBO(255, 225, 102, 1),
-                  ],
-                ),
-              ),
-              child: Center(
-                child: Text(
-                  'Bắt đầu',
-                  textAlign: TextAlign.justify,
-                  style: GoogleFonts.openSans(
-                    textStyle:
-                        const TextStyle(fontSize: 32, color: Colors.black),
+          child: Column(
+            children: [
+              const Padding(padding: EdgeInsets.symmetric(vertical: 285)),
+              TextButton(
+                onPressed: () {},
+                child: Container(
+                  width: 160,
+                  height: 60,
+                  decoration: const BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.centerLeft,
+                      end: Alignment.centerRight,
+                      colors: [
+                        Color.fromRGBO(249, 164, 9, 1),
+                        Color.fromRGBO(242, 191, 32, 1),
+                        Color.fromRGBO(255, 225, 102, 1),
+                      ],
+                    ),
+                    borderRadius: BorderRadius.all(Radius.circular(25)),
+                  ),
+                  child: Center(
+                    child: Text(
+                      'Bắt đầu',
+                      textAlign: TextAlign.justify,
+                      style: GoogleFonts.openSans(
+                        textStyle: const TextStyle(
+                            fontWeight: FontWeight.w200,
+                            fontSize: 28,
+                            color: Colors.black),
+                      ),
+                    ),
                   ),
                 ),
               ),
-            ),
+            ],
           ),
         ),
       ),

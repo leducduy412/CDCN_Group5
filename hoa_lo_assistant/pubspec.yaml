@@ -29,6 +29,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  google_fonts: ^4.0.3
   flutter:
     sdk: flutter
 
@@ -36,7 +37,6 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  google_fonts: ^4.0.3
 
 dev_dependencies:
   flutter_test:
@@ -54,11 +54,21 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  uses-material-design: true
+  assets:
+    - assets/image/background/main_screen.png
+    - assets/icon/nut_next.png
+    - assets/image/background/bg.png
+    - assets/image/ca_chot.png
+    - assets/image/may_chem.png
+    - assets/image/phong_giam.png
+    - assets/image/trai_nam.png
+    - assets/image/trai_nu.png
+    - assets/image/tu_chinh_tri.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-  uses-material-design: true
+  
 
   # To add assets to your application, add an assets section, like this:
   # assets:
