@@ -21,7 +21,7 @@ class _OptionScreenState extends State<OptionScreen> {
           child: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("assets/background/bg.png"),
+                image: AssetImage("assets/image/background/bg.png"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -60,7 +60,7 @@ class _OptionScreenState extends State<OptionScreen> {
           children: [
             IconButton(
               onPressed: () {},
-              icon: Image.asset('assets/images/trai_nu.png'),
+              icon: Image.asset('assets/image/trai_nu.png'),
               iconSize: screenWidth * 0.3,
             ),
             Text(
@@ -77,7 +77,7 @@ class _OptionScreenState extends State<OptionScreen> {
           child: Column(children: [
             IconButton(
               onPressed: () {},
-              icon: Image.asset('assets/images/may_chem.png'),
+              icon: Image.asset('assets/image/may_chem.png'),
               iconSize: screenWidth * 0.3,
             ),
             Text(
@@ -103,7 +103,7 @@ class _OptionScreenState extends State<OptionScreen> {
           children: [
             IconButton(
               onPressed: () {},
-              icon: Image.asset('assets/images/trai_nam.png'),
+              icon: Image.asset('assets/image/trai_nam.png'),
               iconSize: screenWidth * 0.3,
             ),
             Text(
@@ -120,7 +120,7 @@ class _OptionScreenState extends State<OptionScreen> {
           child: Column(children: [
             IconButton(
               onPressed: () {},
-              icon: Image.asset('assets/images/tu_chinh_tri.png'),
+              icon: Image.asset('assets/image/tu_chinh_tri.png'),
               iconSize: screenWidth * 0.3,
             ),
             Text(
@@ -146,7 +146,7 @@ class _OptionScreenState extends State<OptionScreen> {
           children: [
             IconButton(
               onPressed: () {},
-              icon: Image.asset('assets/images/phong_giam.png'),
+              icon: Image.asset('assets/image/phong_giam.png'),
               iconSize: screenWidth * 0.3,
             ),
             Text(
@@ -163,7 +163,7 @@ class _OptionScreenState extends State<OptionScreen> {
           child: Column(children: [
             IconButton(
               onPressed: () {},
-              icon: Image.asset('assets/images/ca_chot.png'),
+              icon: Image.asset('assets/image/ca_chot.png'),
               iconSize: screenWidth * 0.3,
             ),
             Text(

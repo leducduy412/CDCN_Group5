@@ -34,7 +34,7 @@ class AppBarTop extends StatelessWidget implements PreferredSizeWidget {
           Padding(
             padding: EdgeInsets.only(right: screenWidth * 0.05),
             child: IconButton(
-              icon: Image.asset('assets/button/nut_next.png'),
+              icon: Image.asset('assets/icon/nut_next.png'),
               iconSize: screenWidth * 0.1,
               onPressed: () {
                 // handle back button pressed
