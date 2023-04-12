@@ -33,15 +33,16 @@ class AppBarTop extends StatelessWidget implements PreferredSizeWidget {
 
           // next button
           Padding(
-              padding: EdgeInsets.only(right: screenWidth * 0.05),
-              child: Center(
+              padding: EdgeInsets.only(right: screenWidth * 0.05, top: 10.0),
+              child: Container(
+                height: 80,
                 child: Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
+                    // mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      SizedBox(height: 15),
+                      //SizedBox(height: 10),
                       IconButton(
                         icon: Image.asset('assets/icon/nut_next.png'),
-                        iconSize: screenWidth * 0.1,
+                        iconSize: 100 * 0.3,
                         onPressed: () {
                           // handle back button pressed
                           Navigator.push(
@@ -51,16 +52,24 @@ class AppBarTop extends StatelessWidget implements PreferredSizeWidget {
                           );
                         },
                       ),
-                      Padding(
-                        padding: EdgeInsets.only(top: 100 * 0.01),
-                        child: Text(
-                          'Hiển thị bản đồ',
-                          style: GoogleFonts.openSans(
-                              color: Color(0xFF6B6B6D),
-                              fontWeight: FontWeight.w600,
-                              fontSize: screenWidth * 0.03),
-                        ),
+                      // Padding(
+                      //   padding: EdgeInsets.only(top: 100 * 0.01),
+                      //   child: Text(
+                      //     'Hiển thị bản đồ',
+                      //     style: GoogleFonts.openSans(
+                      //         color: Color(0xFF6B6B6D),
+                      //         fontWeight: FontWeight.w600,
+                      //         fontSize: screenWidth * 0.03),
+                      //   ),
+                      // ),
+                      Text(
+                        'Hiển thị bản đồ',
+                        style: GoogleFonts.openSans(
+                            color: Color(0xFF6B6B6D),
+                            fontWeight: FontWeight.w600,
+                            fontSize: screenWidth * 0.03),
                       ),
+                      SizedBox(height: 10),
                     ]),
               )),
         ],
