@@ -16,6 +16,7 @@ class _OptionScreenState extends State<OptionScreen> {
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
+        resizeToAvoidBottomInset: false,
         appBar: AppBarTop(),
         body: SafeArea(
           child: Container(
