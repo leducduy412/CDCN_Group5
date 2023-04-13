@@ -3,6 +3,8 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hoa_lo_assistant/widgets/appbar_option.dart';
+import 'package:hoa_lo_assistant/widgets/detail_screen.dart';
+import 'package:hoa_lo_assistant/widgets/detail_screen.dart';
 
 class OptionScreen extends StatefulWidget {
   const OptionScreen({super.key});
@@ -60,7 +62,14 @@ class _OptionScreenState extends State<OptionScreen> {
             child: Column(
           children: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreen(title: 'Trại nữ'),
+                  ),
+                );
+              },
               icon: Image.asset('assets/image/trai_nu.png'),
               iconSize: screenWidth * 0.3,
             ),
@@ -77,7 +86,14 @@ class _OptionScreenState extends State<OptionScreen> {
         Container(
           child: Column(children: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreen(title: 'Máy chém'),
+                  ),
+                );
+              },
               icon: Image.asset('assets/image/may_chem.png'),
               iconSize: screenWidth * 0.3,
             ),
@@ -103,7 +119,14 @@ class _OptionScreenState extends State<OptionScreen> {
             child: Column(
           children: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreen(title: 'Trại nam'),
+                  ),
+                );
+              },
               icon: Image.asset('assets/image/trai_nam.png'),
               iconSize: screenWidth * 0.3,
             ),
@@ -120,7 +143,14 @@ class _OptionScreenState extends State<OptionScreen> {
         Container(
           child: Column(children: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreen(title: 'Tù chính trị'),
+                  ),
+                );
+              },
               icon: Image.asset('assets/image/tu_chinh_tri.png'),
               iconSize: screenWidth * 0.3,
             ),
@@ -146,7 +176,14 @@ class _OptionScreenState extends State<OptionScreen> {
             child: Column(
           children: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreen(title: 'Phòng giam'),
+                  ),
+                );
+              },
               icon: Image.asset('assets/image/phong_giam.png'),
               iconSize: screenWidth * 0.3,
             ),
@@ -163,7 +200,14 @@ class _OptionScreenState extends State<OptionScreen> {
         Container(
           child: Column(children: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailScreen(title: 'Cachot'),
+                  ),
+                );
+              },
               icon: Image.asset('assets/image/ca_chot.png'),
               iconSize: screenWidth * 0.3,
             ),
