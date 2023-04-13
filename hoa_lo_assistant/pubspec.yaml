@@ -65,6 +65,8 @@ flutter:
     - assets/image/trai_nam.png
     - assets/image/trai_nu.png
     - assets/image/tu_chinh_tri.png
+    - assets/icon/icon_ar.png
+    - assets/icon/icon_back.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
