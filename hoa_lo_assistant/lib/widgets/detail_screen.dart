@@ -26,17 +26,30 @@ class _DetailScreenState extends State<DetailScreen> {
         child: Center(),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.info_outline, color: Colors.black),
+            icon: SizedBox(
+              width: 30,
+              height: 30,
+              child: Icon(Icons.info_outline, color: Colors.black)
+            ),
             label: 'Thông tin bổ sung',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.play_circle_fill, color: Colors.black),
+            icon: SizedBox(
+              width: 30,
+              height: 30,
+              child: Icon(Icons.play_circle_fill, color: Colors.black),
+            ),
             label: 'Tư liệu lịch sử',
           ),
           BottomNavigationBarItem(
-            icon: Image.asset('assets/icon/icon_ar.png', width: 30, height: 30), // Set the desired width and height
+            icon: SizedBox(
+              width: 30,
+              height: 30,
+              child: Image.asset('assets/icon/icon_ar.png'),
+            ), // Set the desired width and height
             label: 'AR',
           ),
         ],
@@ -44,6 +57,8 @@ class _DetailScreenState extends State<DetailScreen> {
         selectedItemColor: Color(0xFF6B6B6D),
         showUnselectedLabels: true,
         backgroundColor: Color(0xFFD5C5A9),
+        selectedLabelStyle: TextStyle(fontSize: 14), // Set the desired font size for the selected label
+        unselectedLabelStyle: TextStyle(fontSize: 14), // Set the desired font size for the unselected label
       ),
     );
   }
