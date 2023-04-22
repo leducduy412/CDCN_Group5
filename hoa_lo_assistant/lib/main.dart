@@ -1,9 +1,18 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:hoa_lo_assistant/arcore/cachot_screen.dart';
 import 'package:hoa_lo_assistant/widgets/main_screen.dart';
 import 'package:hoa_lo_assistant/widgets/option_screen.dart';
 
-void main() {
-  runApp(const MyApp());
+List<CameraDescription> cameras = [];
+Future<void> main() async {
+  try {
+    WidgetsFlutterBinding.ensureInitialized();
+    cameras = await availableCameras();
+  } on CameraException catch (e) {
+    print('Error in fetching the cameras: $e');
+  }
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -26,7 +35,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MainScreen(),
+      home: const CachotArScreen(),
     );
   }
 }
