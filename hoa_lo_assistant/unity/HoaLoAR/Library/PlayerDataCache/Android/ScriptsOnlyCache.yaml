@@ -1126,4 +1126,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/hehe.apk
+  playerPath: D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/Builds/HoaLoAR.apk
