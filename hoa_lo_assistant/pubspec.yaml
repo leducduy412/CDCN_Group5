@@ -67,8 +67,7 @@ flutter:
     - assets/image/tu_chinh_tri.png
     - assets/icon/icon_ar.png
     - assets/icon/icon_back.png
-    - assets/icon/may_chem_icon.png
-    - assets/Frame.png
+    - assets/image/may_chem.png
     - assets/image/trainu1.png
     - assets/image/trainu2.png
   # The following line ensures that the Material Icons font is
