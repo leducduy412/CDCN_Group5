@@ -1,0 +1,16 @@
+{
+    "id": "hoalo_01",
+    "name": "Cachot",
+    "icon": "assets/image/cachot/cachot_icon.png",
+    "images": {
+        "image": [
+            "assets/image/cachot/cachot_01.jpg",
+            "assets/image/cachot/cachot_02.jpg",
+            "assets/image/cachot/cachot_03.jpg"
+        ],
+        "text": "Nhà tù Hoả Lò từng được gọi với cái tên “địa ngục trần gian” giữa lòng Hà Nội. Bởi tại đây, thực dân Pháp dùng nhiều thủ đoạn tàn ác, vô nhân đạo nhất với những tù nhân yêu nước và cách mạng. Nhà tù Hoả Lò có một khu giam giữ gọi là khu Cachot (ngục tối) để nhốt, trừng phạt những người tù bị thực dân Pháp quy tội vi phạm nội quy, quy chế của nhà tù hoặc có hành vi chống đối (tổ chức đấu tranh, tổ chức vượt ngục, tuyên truyền cách mạng...). Phòng giam cachot tối tăm, chật hẹp, ngột ngạt, thiếu dưỡng khí. Sàn để tù nhân nằm bằng xi măng, được thiết kế phần đầu dốc ngược, thấp hơn phần chân, hai chân bị cùm suốt ngày, đêm (24/24 giờ). Tù nhân trong cachot bị đánh đập, phạt ăn cơm nhạt hoặc bị bỏ đói, vệ sinh tại chỗ. Thậm chí, còn bị hắt nước lạnh ướt đầm đìa trong thời tiết giá rét. Phần lớn những người bị giam lâu ở ngục tối đến khi ra khỏi ngục đều không lê nổi đôi chân, mắt loà không nhìn rõ mọi vật, cánh tay không nhấc được lên cao, bàn tay không cầm nổi đôi đũa, toàn thân ghẻ lở, phù nề." 
+    },
+    "videos": {
+        
+    }
+}

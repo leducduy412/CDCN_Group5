@@ -1,10 +1,11 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hoa_lo_assistant/widgets/appbar_option.dart';
 import 'package:hoa_lo_assistant/widgets/detail_screen.dart';
-import 'package:hoa_lo_assistant/widgets/detail_screen.dart';
+import 'package:hoa_lo_assistant/global.dart' as global;
 
 class OptionScreen extends StatefulWidget {
   const OptionScreen({super.key});
@@ -20,7 +21,7 @@ class _OptionScreenState extends State<OptionScreen> {
     return Scaffold(
         resizeToAvoidBottomInset: false,
         appBar: AppBarTop(),
-        body: SafeArea(
+        body: SizedBox.expand(
           child: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
@@ -28,200 +29,86 @@ class _OptionScreenState extends State<OptionScreen> {
                 fit: BoxFit.cover,
               ),
             ),
-            child: Center(
-              child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.only(
-                          left: screenWidth * 0.1, right: screenWidth * 0.1),
-                      child: firstRow(screenWidth),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(
-                          left: screenWidth * 0.1, right: screenWidth * 0.1),
-                      child: secondRow(screenWidth),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.only(
-                          left: screenWidth * 0.1, right: screenWidth * 0.1),
-                      child: thirdRow(screenWidth),
-                    ),
-                  ]),
+            child: Padding(
+              padding: EdgeInsets.only(
+                  left: screenWidth * 0.1,
+                  right: screenWidth * 0.1,
+                  top: screenWidth * 0.1),
+              child: getListAreas(context, screenWidth),
             ),
-            padding: EdgeInsets.symmetric(vertical: screenWidth * 0.1),
           ),
         ));
   }
 
-  Row firstRow(double screenWidth) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Container(
-            child: Column(
-          children: [
-            IconButton(
-              onPressed: () {
+  Widget getListAreas(BuildContext context, double screenWidth) {
+    return Container(
+      color: Colors.transparent,
+      child: GridView(
+        physics: const NeverScrollableScrollPhysics(),
+        shrinkWrap: true,
+        gridDelegate:
+            const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+        children: [
+          for (var i = 0; i < global.list_area.length; i++)
+            TextButton(
+              onPressed: () async {
+                String name = await getName(i);
+                final String link = global.list_area.elementAt(i).toString();
+                global.is_choosen = 'assets/database/$link';
                 Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailScreen(title: 'Trại nữ'),
-                  ),
-                );
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => DetailScreen(title: name)));
               },
-              icon: Image.asset('assets/image/trai_nu.png'),
-              iconSize: screenWidth * 0.3,
-            ),
-            Text(
-              'Trại nữ',
-              style: GoogleFonts.openSans(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 20,
-                  fontStyle: FontStyle.italic),
-            ),
-          ],
-        )),
-        Container(
-          child: Column(children: [
-            IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailScreen(title: 'Máy chém'),
+              child: Column(
+                children: [
+                  FutureBuilder(
+                    future: getImage(i),
+                    builder: (context, snapshot) {
+                      return Image.asset('${snapshot.data}', fit: BoxFit.cover);
+                    },
                   ),
-                );
-              },
-              icon: Image.asset('assets/image/may_chem.png'),
-              iconSize: screenWidth * 0.3,
-            ),
-            Text(
-              'Máy chém',
-              style: GoogleFonts.openSans(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 20,
-                  fontStyle: FontStyle.italic),
-            ),
-          ]),
-        )
-      ],
+                  FutureBuilder(
+                      future: getName(i),
+                      builder: (context, snapshot) {
+                        return Text(
+                          '${snapshot.data}',
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.openSans(
+                            textStyle: const TextStyle(
+                              color: Colors.black,
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                              fontStyle: FontStyle.italic,
+                            ),
+                          ),
+                        );
+                      }),
+                ],
+              ),
+            )
+        ],
+      ),
     );
   }
 
-  Row secondRow(double screenWidth) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Container(
-            child: Column(
-          children: [
-            IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailScreen(title: 'Trại nam'),
-                  ),
-                );
-              },
-              icon: Image.asset('assets/image/trai_nam.png'),
-              iconSize: screenWidth * 0.3,
-            ),
-            Text(
-              'Trại nam',
-              style: GoogleFonts.openSans(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 20,
-                  fontStyle: FontStyle.italic),
-            ),
-          ],
-        )),
-        Container(
-          child: Column(children: [
-            IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailScreen(title: 'Tù chính trị'),
-                  ),
-                );
-              },
-              icon: Image.asset('assets/image/tu_chinh_tri.png'),
-              iconSize: screenWidth * 0.3,
-            ),
-            Text(
-              'Tù chính trị',
-              style: GoogleFonts.openSans(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 20,
-                  fontStyle: FontStyle.italic),
-            ),
-          ]),
-        )
-      ],
-    );
+  Future<String> getImage(int i) async {
+    String link = global.list_area.elementAt(i).toString();
+    link = 'assets/database/$link';
+    final String respone = await rootBundle.loadString(link);
+    final data = await json.decode(respone);
+    // ignore: avoid_dynamic_calls
+    final String image = data["icon"].toString();
+    return image;
   }
 
-  Row thirdRow(double screenWidth) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Container(
-            child: Column(
-          children: [
-            IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailScreen(title: 'Phòng giam'),
-                  ),
-                );
-              },
-              icon: Image.asset('assets/image/phong_giam.png'),
-              iconSize: screenWidth * 0.3,
-            ),
-            Text(
-              'Phòng giam',
-              style: GoogleFonts.openSans(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 20,
-                  fontStyle: FontStyle.italic),
-            ),
-          ],
-        )),
-        Container(
-          child: Column(children: [
-            IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DetailScreen(title: 'Cachot'),
-                  ),
-                );
-              },
-              icon: Image.asset('assets/image/ca_chot.png'),
-              iconSize: screenWidth * 0.3,
-            ),
-            Text(
-              'Cachot',
-              style: GoogleFonts.openSans(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w600,
-                  fontSize: 20,
-                  fontStyle: FontStyle.italic),
-            ),
-          ]),
-        )
-      ],
-    );
+  Future<String> getName(int i) async {
+    String link = global.list_area.elementAt(i).toString();
+    link = 'assets/database/$link';
+    final String respone = await rootBundle.loadString(link);
+    final data = await json.decode(respone);
+    // ignore: avoid_dynamic_calls
+    final String name = data["name"].toString();
+    return name;
   }
 }
