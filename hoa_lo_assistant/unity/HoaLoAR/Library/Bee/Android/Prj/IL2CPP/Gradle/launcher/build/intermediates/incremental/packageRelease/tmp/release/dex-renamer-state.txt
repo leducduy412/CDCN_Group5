@@ -1,0 +1,4 @@
+#Sat May 13 22:01:21 ICT 2023
+base.0=D\:\\CDCN_Group5\\hoa_lo_assistant\\unity\\HoaLoAR\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

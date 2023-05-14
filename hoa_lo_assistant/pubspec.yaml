@@ -37,6 +37,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_unity_widget: ^2022.2.0
+  camera: ^0.10.4
 
 dev_dependencies:
   flutter_test:
@@ -69,13 +71,15 @@ flutter:
     - assets/icon/icon_back.png
   #  - assets/icon/may_chem_icon.png
   #  - assets/Frame.png
-    - assets/image/trainu1.png
-    - assets/image/trainu2.png
     - assets/image/cachot/cachot_icon.png
     - assets/image/cachot/cachot_01.jpg
     - assets/image/cachot/cachot_02.jpg
     - assets/image/cachot/cachot_03.jpg
     - assets/database/cachot.json
+    - assets/image/may_chem.png
+    - assets/image/trainu1.png
+    - assets/image/trainu2.png
+    - assets/image/May chem.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
