@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hoa_lo_assistant/global.dart';
+import 'package:hoa_lo_assistant/widgets/video_screen.dart';
+
+import 'inforaddition_screen.dart';
+import 'main_screen.dart';
 
 class DetailScreen extends StatefulWidget {
   final String title;
@@ -21,7 +25,7 @@ class _DetailScreenState extends State<DetailScreen> {
 
   Future<void> readJson() async {
     final String respone =
-        await rootBundle.loadString(is_choosen, cache: false);
+    await rootBundle.loadString(is_choosen, cache: false);
     final data = jsonDecode(respone);
     // ignore: duplicate_ignore
     setState(() {
@@ -38,8 +42,8 @@ class _DetailScreenState extends State<DetailScreen> {
       body: LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
           final maxHeight = constraints.maxHeight;
-          final imageHeight = maxHeight * 0.5; // 60% of total height
-          final textContainerHeight = maxHeight * 0.5; // 40% of total height
+          final imageHeight = maxHeight * 0.4; // 50% of total height
+          final textContainerHeight = maxHeight * 0.5; // 50% of total height
           return Container(
             decoration: BoxDecoration(
               image: DecorationImage(
@@ -49,55 +53,83 @@ class _DetailScreenState extends State<DetailScreen> {
             ),
             child: Column(
               children: [
-                Container(
-                  height: imageHeight,
-                  child: PageView(
-                    children: [
-                      // Image.asset('assets/image/trainu1.png',
-                      //     fit: BoxFit.cover),
-                      // Image.asset('assets/image/trainu2.png',
-                      //     fit: BoxFit.cover),
-                      // Image.asset('assets/image/example3.png', fit: BoxFit.cover),
-                      for (var i = 0; i < images.length; i++)
-                        Image.asset(images.elementAt(i), fit: BoxFit.cover)
-                    ],
-                  ),
-                ),
-                Container(
-                  height: textContainerHeight,
-                  padding: EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(0, 0, 0, 0.11),
-                    borderRadius: BorderRadius.vertical(
-                        bottom: Radius.circular(20), top: Radius.circular(20)),
-                  ),
-                  child: SingleChildScrollView(
-                    child: Text(
-                      image_text,
-                      style: TextStyle(fontSize: 17, color: Colors.black),
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Container(
+                    height: imageHeight,
+                    child: PageView(
+                      children: [
+                        for (var i = 0; i < images.length; i++)
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(20),
+                            child: Image.asset(images.elementAt(i), fit: BoxFit.cover),
+                          )
+                      ],
                     ),
                   ),
                 ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
+                  child: Container(
+                    height: textContainerHeight,
+                    padding: EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(0, 0, 0, 0.11),
+                      borderRadius: BorderRadius.vertical(
+                          bottom: Radius.circular(20), top: Radius.circular(20)),
+                    ),
+                    child: SingleChildScrollView(
+                      child: RichText(
+                        text: TextSpan(
+                          text: image_text,
+                          style: GoogleFonts.openSans(fontSize: 15, color: Colors.black),
+                        ),
+                        textAlign: TextAlign.justify,
+                      ),
+                    ),
+                  ),
+                ),
+
               ],
             ),
           );
         },
       ),
+
+
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
-            icon: SizedBox(
-                width: 30,
-                height: 30,
-                child: Icon(Icons.info_outline, color: Colors.black)),
+            icon: GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  // MaterialPageRoute(builder: (context) => Inforaddition()),
+                  MaterialPageRoute(builder: (context) => InforAdditionScreen()),
+                );
+              },
+              child: SizedBox(
+                  width: 30,
+                  height: 30,
+                  child: Icon(Icons.info_outline, color: Colors.black)),
+            ),
             label: 'Thông tin bổ sung',
           ),
           BottomNavigationBarItem(
-            icon: SizedBox(
-              width: 30,
-              height: 30,
-              child: Icon(Icons.play_circle_fill, color: Colors.black),
+            icon: GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => VideoScreen()),
+                  //MaterialPageRoute(builder: (context) => MainScreen()),
+                );
+              },
+              child: SizedBox(
+                width: 30,
+                height: 30,
+                child: Icon(Icons.play_circle_fill, color: Colors.black),
+              ),
             ),
             label: 'Tư liệu lịch sử',
           ),
