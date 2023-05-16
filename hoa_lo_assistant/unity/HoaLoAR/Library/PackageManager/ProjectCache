@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638195954034542285
-    m_Hash: 1408370205
+      ticks: 638198540932552515
+    m_Hash: 1743169551
   m_LockFileStatus:
     m_FilePath: D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638195954092586578
-    m_Hash: 2887581826
+      ticks: 638198540932552515
+    m_Hash: 462693092
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

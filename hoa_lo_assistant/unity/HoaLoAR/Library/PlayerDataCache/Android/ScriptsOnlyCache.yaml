@@ -61,21 +61,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1668}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3862}
     - Class: 114
-      Script: {instanceID: 4450}
+      Script: {instanceID: 4456}
     - Class: 114
-      Script: {instanceID: 4800}
+      Script: {instanceID: 4806}
     - Class: 114
-      Script: {instanceID: 5944}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6734}
+      Script: {instanceID: 6746}
     - Class: 114
-      Script: {instanceID: 7524}
+      Script: {instanceID: 7536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -1126,4 +1126,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/Builds/HoaLoAR.apk
+  playerPath: D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk
