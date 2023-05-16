@@ -63,7 +63,6 @@ flutter:
     - assets/icon/nut_next.png
     - assets/image/background/bg.png
     - assets/image/ca_chot.png
-    - assets/image/may_chem.png
     - assets/image/phong_giam.png
     - assets/image/trai_nam.png
     - assets/image/trai_nu.png
@@ -72,16 +71,22 @@ flutter:
     - assets/icon/icon_back.png
   #  - assets/icon/may_chem_icon.png
   #  - assets/Frame.png
-    - assets/image/cachot/cachot_icon.png
+    - assets/icon/cachot/cachot_icon.png
     - assets/image/cachot/cachot_01.jpg
     - assets/image/cachot/cachot_02.jpg
     - assets/image/cachot/cachot_03.jpg
     - assets/database/cachot.json
-    - assets/image/may_chem.png
+    - assets/database/maychem.json
+    - assets/icon/maychem/maychem_icon.png
     - assets/image/trainu1.png
     - assets/image/trainu2.png
     - assets/image/May chem.png
-    - assets/videos/rickroll.mp4
+    - assets/videos/cachot.mp4
+    - assets/videos/maychem.mp4
+    - assets/image/maychem/maychem_01.jpg
+    - assets/image/maychem/maychem_02.jpg
+    - assets/image/maychem/maychem_03.jpg
+    - assets/image/maychem/maychem_04.jpg
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

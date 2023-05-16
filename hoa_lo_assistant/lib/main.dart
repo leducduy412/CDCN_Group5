@@ -7,12 +7,12 @@ import 'package:hoa_lo_assistant/widgets/option_screen.dart';
 List<CameraDescription> cameras = [];
 
 Future<void> main() async {
-  try {
-    WidgetsFlutterBinding.ensureInitialized();
-    cameras = await availableCameras();
-  } on CameraException catch (e) {
-    print('Error in fetching the cameras: $e');
-  }
+  // try {
+  //   WidgetsFlutterBinding.ensureInitialized();
+  //   cameras = await availableCameras();
+  // } on CameraException catch (e) {
+  //   print('Error in fetching the cameras: $e');
+  // }
   runApp(MyApp());
 }
 
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ARScreen(),
+      home: MainScreen(),
     );
   }
 }

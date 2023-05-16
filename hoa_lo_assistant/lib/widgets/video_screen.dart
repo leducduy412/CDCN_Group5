@@ -6,6 +6,17 @@ import 'package:chewie/chewie.dart';
 import 'main_screen.dart';
 
 class VideoScreen extends StatefulWidget {
+  final VideoPlayerWidget video;
+  final String video_text;
+  final String title;
+
+  const VideoScreen(
+      {Key? key,
+      required this.title,
+      required this.video,
+      required this.video_text})
+      : super(key: key);
+
   @override
   _VideoScreenState createState() => _VideoScreenState();
 }
@@ -14,7 +25,7 @@ class _VideoScreenState extends State<VideoScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarTop2(title: 'Tư liệu lịch sử'),
+      appBar: AppBarTop2(title: 'Tư liệu'),
       body: LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
           final maxHeight = constraints.maxHeight;
@@ -35,17 +46,23 @@ class _VideoScreenState extends State<VideoScreen> {
                   padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
                   child: Container(
                     height: titleHeight,
-                    alignment: Alignment.center, // Change this to center the text
+                    alignment:
+                        Alignment.center, // Change this to center the text
                     child: Text(
-                      'Tiêu đề video', // Change this to the actual text
-                      style: GoogleFonts.openSans(fontSize: 17, color: Colors.black),
-                      textAlign: TextAlign.center, // Change this to center the text
+                      widget.title, // Change this to the actual text
+                      style: GoogleFonts.openSans(
+                          fontSize: 20,
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold),
+                      textAlign:
+                          TextAlign.center, // Change this to center the text
                     ),
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(0, 0, 0, 0.11),
                       borderRadius: BorderRadius.circular(20),
                     ),
-                    width: double.infinity, // This will make the container span the entire width
+                    width: double
+                        .infinity, // This will make the container span the entire width
                   ),
                 ),
                 Padding(
@@ -54,7 +71,7 @@ class _VideoScreenState extends State<VideoScreen> {
                     height: videoHeight,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
-                      child: VideoPlayerWidget(videoPath: 'assets/videos/rickroll.mp4'),
+                      child: widget.video,
                     ),
                   ),
                 ),
@@ -66,14 +83,17 @@ class _VideoScreenState extends State<VideoScreen> {
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(0, 0, 0, 0.11),
                       borderRadius: BorderRadius.vertical(
-                          bottom: Radius.circular(20), top: Radius.circular(20)),
+                          bottom: Radius.circular(20),
+                          top: Radius.circular(20)),
                     ),
                     width: double.infinity,
                     child: SingleChildScrollView(
                       child: RichText(
                         text: TextSpan(
-                          text: 'Nội dung video', // Change this to the actual text
-                          style: GoogleFonts.openSans(fontSize: 15, color: Colors.black),
+                          text: widget
+                              .video_text, // Change this to the actual text
+                          style: GoogleFonts.openSans(
+                              fontSize: 15, color: Colors.black),
                         ),
                         textAlign: TextAlign.justify,
                       ),
@@ -96,10 +116,7 @@ class AppBarTop2 extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    final screenWidth = MediaQuery
-        .of(context)
-        .size
-        .width;
+    final screenWidth = MediaQuery.of(context).size.width;
     return AppBar(
       backgroundColor: Color(0xFFD5C5A9),
       title: Text(
@@ -123,10 +140,12 @@ class AppBarTop2 extends StatelessWidget implements PreferredSizeWidget {
   @override
   Size get preferredSize => Size.fromHeight(kToolbarHeight);
 }
+
 class VideoPlayerWidget extends StatefulWidget {
   final String videoPath;
 
-  const VideoPlayerWidget({Key? key, required this.videoPath}) : super(key: key);
+  const VideoPlayerWidget({Key? key, required this.videoPath})
+      : super(key: key);
 
   @override
   _VideoPlayerWidgetState createState() => _VideoPlayerWidgetState();

@@ -21,16 +21,25 @@ class DetailScreen extends StatefulWidget {
 class _DetailScreenState extends State<DetailScreen> {
   List images = [];
   List videos = [];
+  String add_text = "";
   String image_text = '';
+  late VideoPlayerWidget video;
+  String video_text = "";
+  String title = "";
 
   Future<void> readJson() async {
     final String respone =
-    await rootBundle.loadString(is_choosen, cache: false);
+        await rootBundle.loadString(is_choosen, cache: false);
     final data = jsonDecode(respone);
     // ignore: duplicate_ignore
     setState(() {
       images = data['images']['image'] as List;
       image_text = data['images']['text'] as String;
+      add_text = data['addition_text'] as String;
+      video_text = data['videos']['text'] as String;
+      String s = data['videos']['video'] as String;
+      title = data['videos']['title'] as String;
+      video = VideoPlayerWidget(videoPath: s);
     });
   }
 
@@ -62,7 +71,8 @@ class _DetailScreenState extends State<DetailScreen> {
                         for (var i = 0; i < images.length; i++)
                           ClipRRect(
                             borderRadius: BorderRadius.circular(20),
-                            child: Image.asset(images.elementAt(i), fit: BoxFit.cover),
+                            child: Image.asset(images.elementAt(i),
+                                fit: BoxFit.cover),
                           )
                       ],
                     ),
@@ -76,27 +86,26 @@ class _DetailScreenState extends State<DetailScreen> {
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(0, 0, 0, 0.11),
                       borderRadius: BorderRadius.vertical(
-                          bottom: Radius.circular(20), top: Radius.circular(20)),
+                          bottom: Radius.circular(20),
+                          top: Radius.circular(20)),
                     ),
                     child: SingleChildScrollView(
                       child: RichText(
                         text: TextSpan(
                           text: image_text,
-                          style: GoogleFonts.openSans(fontSize: 15, color: Colors.black),
+                          style: GoogleFonts.openSans(
+                              fontSize: 15, color: Colors.black),
                         ),
                         textAlign: TextAlign.justify,
                       ),
                     ),
                   ),
                 ),
-
               ],
             ),
           );
         },
       ),
-
-
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         items: [
@@ -106,7 +115,9 @@ class _DetailScreenState extends State<DetailScreen> {
                 Navigator.push(
                   context,
                   // MaterialPageRoute(builder: (context) => Inforaddition()),
-                  MaterialPageRoute(builder: (context) => InforAdditionScreen()),
+                  MaterialPageRoute(
+                      builder: (context) =>
+                          InforAdditionScreen(add_text: add_text)),
                 );
               },
               child: SizedBox(
@@ -121,7 +132,9 @@ class _DetailScreenState extends State<DetailScreen> {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => VideoScreen()),
+                  MaterialPageRoute(
+                      builder: (context) => VideoScreen(
+                          title: title, video: video, video_text: video_text)),
                   //MaterialPageRoute(builder: (context) => MainScreen()),
                 );
               },
