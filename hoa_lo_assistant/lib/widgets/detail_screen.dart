@@ -146,14 +146,25 @@ class _DetailScreenState extends State<DetailScreen> {
             ),
             label: 'Tư liệu lịch sử',
           ),
-          BottomNavigationBarItem(
-            icon: SizedBox(
-              width: 30,
-              height: 30,
-              child: Image.asset('assets/icon/icon_ar.png'),
-            ), // Set the desired width and height
-            label: 'AR',
-          ),
+          // BottomNavigationBarItem(
+          //   icon: SizedBox(
+          //     width: 30,
+          //     height: 30,
+          //     child: Image.asset('assets/icon/icon_ar.png'),
+          //   ), // Set the desired width and height
+          //   label: 'AR',
+          // ),
+          if (list_ar[list_area.indexOf(is_choosen_onlyname)] == true)
+            BottomNavigationBarItem(
+              icon: GestureDetector(
+                  onTap: () {},
+                  child: SizedBox(
+                    width: 30,
+                    height: 30,
+                    child: Image.asset('assets/icon/icon_ar.png'),
+                  )),
+              label: 'AR',
+            ),
         ],
         unselectedItemColor: Color(0xFF6B6B6D),
         selectedItemColor: Color(0xFF6B6B6D),

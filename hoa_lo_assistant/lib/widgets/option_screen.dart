@@ -55,6 +55,7 @@ class _OptionScreenState extends State<OptionScreen> {
                 String name = await getName(i);
                 final String link = global.list_area.elementAt(i).toString();
                 global.is_choosen = 'assets/database/$link';
+                global.is_choosen_onlyname = link;
                 Navigator.push(
                     context,
                     MaterialPageRoute(
