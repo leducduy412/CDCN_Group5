@@ -31,8 +31,8 @@ class _OptionScreenState extends State<OptionScreen> {
             ),
             child: Padding(
               padding: EdgeInsets.only(
-                  left: screenWidth * 0.1,
-                  right: screenWidth * 0.1,
+                  //left: screenWidth * 0.1,
+                  //right: screenWidth * 0.1,
                   top: screenWidth * 0.1),
               child: getListAreas(context, screenWidth),
             ),
@@ -77,7 +77,7 @@ class _OptionScreenState extends State<OptionScreen> {
                           style: GoogleFonts.openSans(
                             textStyle: const TextStyle(
                               color: Colors.black,
-                              fontSize: 20,
+                              fontSize: 14,
                               fontWeight: FontWeight.w600,
                               fontStyle: FontStyle.italic,
                             ),

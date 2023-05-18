@@ -64,8 +64,6 @@ flutter:
     - assets/image/background/bg.png
     - assets/image/ca_chot.png
     - assets/image/phong_giam.png
-    - assets/image/trai_nam.png
-    - assets/image/trai_nu.png
     - assets/image/tu_chinh_tri.png
     - assets/icon/icon_ar.png
     - assets/icon/icon_back.png
@@ -87,6 +85,17 @@ flutter:
     - assets/image/maychem/maychem_02.jpg
     - assets/image/maychem/maychem_03.jpg
     - assets/image/maychem/maychem_04.jpg
+    - assets/database/trainam.json
+    - assets/database/trainu.json
+    - assets/icon/trainu/trainu_icon.png
+    - assets/icon/trainam/trainam_icon.png
+    - assets/image/trainam/trainam_01.jpg
+    - assets/image/trainam/trainam_02.jpg
+    - assets/image/trainam/trainam_03.jpg
+    - assets/image/trainu/trainu_01.jpg
+    - assets/image/trainu/trainu_02.jpg
+    - assets/image/trainu/trainu_03.jpg
+    - assets/videos/trainam.mp4
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

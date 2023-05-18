@@ -1,0 +1,19 @@
+{
+    "id": "hoalo_03",
+    "name": "Trại nam",
+    "icon": "assets/icon/trainam/trainam_icon.png",
+    "images": {
+        "image": [
+            "assets/image/trainam/trainam_01.jpg",
+            "assets/image/trainam/trainam_02.jpg",
+            "assets/image/trainam/trainam_03.jpg"
+        ],
+        "text": "Trại E - nơi thực dân Pháp giam nam tù chính trị. Năm 1930-1931, Chánh Giám ngục nhà tù Hỏa Lò thi hành quy chế nghiêm ngặt để ngăn chặn hoạt động tuyên truyền cách mạng, đấu tranh và tiêu diệt sự hình thành các tổ chức của tù nhân. Tuy nhiên, những người tù vẫn đoàn kết đấu tranh, yêu cầu Chánh Giám ngục phải thực hiện đúng chế độ đối với tù chính trị."
+    },
+    "addition_text": "Những năm 1930 - 1931, Giám ngục Nhà tù Hỏa Lò thi hành quy chế nghiêm ngặt để ngăn chặn các chiến sĩ cộng sản tuyên truyền, tổ chức đấu tranh, tiêu diệt sự hình thành các tổ chức của tù nhân trong nhà tù. Tuy nhiên, những chiến sĩ cộng sản vẫn tìm mọi cách tiếp tục hoạt động và đoàn kết đấu tranh, yêu cầu Giám ngục phải thực hiện đúng chế độ đối với tù chính trị.\nNhững năm 1940 - 1945, tại trại giam, các lớp huấn luyện chính trị được tổ chức tương đối rầm rộ. Anh em học tập Nghị quyết, Chương trình, Điều lệ Việt Minh,... giúp nhau nâng cao hiểu biết, trình độ lý luận chính trị. Để có tài liệu phục vụ tuyên truyền cách mạng và học tập trong tù, họ thường chui xuống gầm sàn để biên soạn. Anh em còn cất giấu tài liệu bằng cách đục tường, rút gạch rồi ngụy trang lại như cũ, để tài liệu không bị lọt vào tay địch, dù Giám ngục thường xuyên tổ chức khám xét.\nGiai đoạn 1946 - 1954, trại E cuộc Camp 1, là nơi giam giữ một bộ phận tù nhân mà thực dân Pháp gọi là tù binh chiến tranh. Chiến tranh lan rộng, tù nhân càng tăng, làm cho Camp 1 luôn chật ních người.\nTrong cảnh sống tù ngục với bao gian lao, thử thách, trước kẻ thù xảo quyệt và hung bạo, nhưng các chiến sĩ yêu nước và cách mạng Việt Nam không nản chí, nản lòng, giữ vững ý chí cách mạng, còn sống, còn chiến đấu.",
+    "videos": {
+        "title": "Cuộc vượt ngục \"độn thổ\" ở Hỏa Lò - Trương Nữ Diệu Anh",
+        "video": "assets/videos/trainam.mp4",
+        "text": "Phóng sự:\nNgày nay di tích Hỏa Lò  tọa lạc ngay vị trí trung tâm Hà Nội, đây là minh chứng cho những tội ác dã man của quân xâm lược đối với nhân dân Việt Nam.\nĐược mệnh danh là hệ thống nhà tù kiên cố, hiện đại bậc nhất Đông Dương thời bấy giờ, tất cả tù nhân có ngày đi không có ngày về. Song chính tại nơi \"địa ngục trần gian\" này đã diễn ra cuộc dại vượt ngục vào hồi 19h30 ngày 11/03/1945 của các chiến sĩ cộng sản, sự kiện này khiến cho kẻ thù phải sững sờ, thể hiện sự dũng cảm và tinh thần anh hùng bất khuất của người làm cách mạng trước thời điểm trọng đại thay đổi vận mệnh của đất nước."
+    }
+}

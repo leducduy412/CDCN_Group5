@@ -1,0 +1,2 @@
+com/DefaultCompany/HoaLoAR/BuildConfig.java
+ com.DefaultCompany.HoaLoAR.BuildConfig

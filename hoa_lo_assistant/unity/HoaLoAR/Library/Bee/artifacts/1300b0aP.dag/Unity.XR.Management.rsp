@@ -108,6 +108,7 @@
 -define:UNITY_ANALYTICS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -296,13 +297,13 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.XRModule.dll"
 -r:"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.xr.management@4.3.3/Runtime/IXRLoaderPreInit.cs"
-"Library/PackageCache/com.unity.xr.management@4.3.3/Runtime/XRConfigurationData.cs"
-"Library/PackageCache/com.unity.xr.management@4.3.3/Runtime/XRGeneralSettings.cs"
-"Library/PackageCache/com.unity.xr.management@4.3.3/Runtime/XRLoader.cs"
-"Library/PackageCache/com.unity.xr.management@4.3.3/Runtime/XRLoaderHelper.cs"
-"Library/PackageCache/com.unity.xr.management@4.3.3/Runtime/XRManagementAnalytics.cs"
-"Library/PackageCache/com.unity.xr.management@4.3.3/Runtime/XRManagerSettings.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/IXRLoaderPreInit.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRConfigurationData.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRGeneralSettings.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRLoader.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRLoaderHelper.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRManagementAnalytics.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRManagerSettings.cs"
 -langversion:9.0
 
 /deterministic
