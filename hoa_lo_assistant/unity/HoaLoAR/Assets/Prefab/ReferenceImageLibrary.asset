@@ -23,7 +23,17 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 2748346698757275124
       m_GuidHigh: 14655029057777088699
-    m_Size: {x: 0.1, y: 0.1}
+    m_Size: {x: 0.3, y: 0.3}
     m_SpecifySize: 1
     m_Name: prioner
     m_Texture: {fileID: 2800000, guid: db0b7df416c22624bbb8d449481f61cb, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5629099420632810178
+      m_GuidHigh: 13082009336214818234
+    m_SerializedTextureGuid:
+      m_GuidLow: 3905793657750959295
+      m_GuidHigh: 17891804795266026888
+    m_Size: {x: 1.8416666, y: 2.6}
+    m_SpecifySize: 1
+    m_Name: maychem
+    m_Texture: {fileID: 2800000, guid: 503834bf2aa33634884d769caa754cf8, type: 3}

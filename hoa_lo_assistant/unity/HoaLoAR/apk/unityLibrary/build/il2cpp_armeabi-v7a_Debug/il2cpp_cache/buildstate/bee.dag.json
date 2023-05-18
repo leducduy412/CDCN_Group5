@@ -315,7 +315,9 @@
         307,
         308,
         309,
-        310
+        310,
+        311,
+        312
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -4066,16 +4068,16 @@
       "DebugActionIndex": 209
     },
     {
-      "Annotation": "C_Android_arm32 q8q9/s8fehlya5gkm.o",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++\" -march=armv7-a -mfloat-abi=softfp -mfpu=neon-fp16 -marm -D__ARM_ARCH_7__ -D__ARM_ARCH_7A__ -D__ANDROID_API__=22 -DANDROID -DHAVE_INTTYPES_H -no-canonical-prefixes -funwind-tables -fstack-protector -fdiagnostics-format=msvc -std=c++11 -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -g -O0 -fPIC -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DIL2CPP_ENABLE_WRITE_BARRIERS=1 -DIL2CPP_INCREMENTAL_TIME_SLICE=3 -DIL2CPP_DEBUG=1 -DHAVE_BDWGC_GC -D_DEBUG -I\".\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/pch\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/external/baselib/Include\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/Android/Include\" -o \"q8q9/s8fehlya5gkm.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -target armv7a-linux-androideabi22 -fdiagnostics-format=msvc -c -x c++ \"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp\"",
+      "Annotation": "C_Android_arm32 q8q9/bw8x24rokiy2.o",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++\" -march=armv7-a -mfloat-abi=softfp -mfpu=neon-fp16 -marm -D__ARM_ARCH_7__ -D__ARM_ARCH_7A__ -D__ANDROID_API__=22 -DANDROID -DHAVE_INTTYPES_H -no-canonical-prefixes -funwind-tables -fstack-protector -fdiagnostics-format=msvc -std=c++11 -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -g -O0 -fPIC -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DIL2CPP_ENABLE_WRITE_BARRIERS=1 -DIL2CPP_INCREMENTAL_TIME_SLICE=3 -DIL2CPP_DEBUG=1 -DHAVE_BDWGC_GC -D_DEBUG -I\".\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/pch\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/external/baselib/Include\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/Android/Include\" -o \"q8q9/bw8x24rokiy2.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -target armv7a-linux-androideabi22 -fdiagnostics-format=msvc -c -x c++ \"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp\"",
       "Inputs": [
-        "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp",
+        "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp",
         "q8q9/_dummy_for_header_discovery",
         "C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++",
         "C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar"
       ],
       "Outputs": [
-        "q8q9/s8fehlya5gkm.o"
+        "q8q9/bw8x24rokiy2.o"
       ],
       "ToBuildDependencies": [
         209
@@ -4083,6 +4085,22 @@
       "AllowUnexpectedOutput": true,
       "Env": [],
       "DebugActionIndex": 210,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_Android_arm32 q8q9/s8fehlya5gkm.o",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++\" -march=armv7-a -mfloat-abi=softfp -mfpu=neon-fp16 -marm -D__ARM_ARCH_7__ -D__ARM_ARCH_7A__ -D__ANDROID_API__=22 -DANDROID -DHAVE_INTTYPES_H -no-canonical-prefixes -funwind-tables -fstack-protector -fdiagnostics-format=msvc -std=c++11 -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -g -O0 -fPIC -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DIL2CPP_ENABLE_WRITE_BARRIERS=1 -DIL2CPP_INCREMENTAL_TIME_SLICE=3 -DIL2CPP_DEBUG=1 -DHAVE_BDWGC_GC -D_DEBUG -I\".\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/pch\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/external/baselib/Include\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/Android/Include\" -o \"q8q9/s8fehlya5gkm.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -target armv7a-linux-androideabi22 -fdiagnostics-format=msvc -c -x c++ \"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp\"",
+      "Inputs": [
+        "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp",
+        "C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++",
+        "C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar"
+      ],
+      "Outputs": [
+        "q8q9/s8fehlya5gkm.o"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 211,
       "ScannerIndex": 3
     },
     {
@@ -4098,7 +4116,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 211,
+      "DebugActionIndex": 212,
       "ScannerIndex": 3
     },
     {
@@ -4114,7 +4132,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 212,
+      "DebugActionIndex": 213,
       "ScannerIndex": 3
     },
     {
@@ -4130,7 +4148,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 213,
+      "DebugActionIndex": 214,
       "ScannerIndex": 3
     },
     {
@@ -4146,7 +4164,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 214,
+      "DebugActionIndex": 215,
       "ScannerIndex": 3
     },
     {
@@ -4162,7 +4180,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 215,
+      "DebugActionIndex": 216,
       "ScannerIndex": 3
     },
     {
@@ -4178,7 +4196,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 216,
+      "DebugActionIndex": 217,
       "ScannerIndex": 3
     },
     {
@@ -4194,7 +4212,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 217,
+      "DebugActionIndex": 218,
       "ScannerIndex": 3
     },
     {
@@ -4210,7 +4228,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 218,
+      "DebugActionIndex": 219,
       "ScannerIndex": 3
     },
     {
@@ -4226,7 +4244,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 219,
+      "DebugActionIndex": 220,
       "ScannerIndex": 3
     },
     {
@@ -4242,7 +4260,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 220,
+      "DebugActionIndex": 221,
       "ScannerIndex": 3
     },
     {
@@ -4258,7 +4276,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 221,
+      "DebugActionIndex": 222,
       "ScannerIndex": 3
     },
     {
@@ -4274,7 +4292,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 222,
+      "DebugActionIndex": 223,
       "ScannerIndex": 3
     },
     {
@@ -4290,7 +4308,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 223,
+      "DebugActionIndex": 224,
       "ScannerIndex": 3
     },
     {
@@ -4306,7 +4324,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 224,
+      "DebugActionIndex": 225,
       "ScannerIndex": 3
     },
     {
@@ -4322,7 +4340,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 225,
+      "DebugActionIndex": 226,
       "ScannerIndex": 3
     },
     {
@@ -4338,7 +4356,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 226,
+      "DebugActionIndex": 227,
       "ScannerIndex": 3
     },
     {
@@ -4354,7 +4372,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 227,
+      "DebugActionIndex": 228,
       "ScannerIndex": 3
     },
     {
@@ -4370,7 +4388,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 228,
+      "DebugActionIndex": 229,
       "ScannerIndex": 3
     },
     {
@@ -4386,7 +4404,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 229,
+      "DebugActionIndex": 230,
       "ScannerIndex": 3
     },
     {
@@ -4402,7 +4420,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 230,
+      "DebugActionIndex": 231,
       "ScannerIndex": 3
     },
     {
@@ -4418,7 +4436,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 231,
+      "DebugActionIndex": 232,
       "ScannerIndex": 3
     },
     {
@@ -4434,7 +4452,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 232,
+      "DebugActionIndex": 233,
       "ScannerIndex": 3
     },
     {
@@ -4450,7 +4468,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 233,
+      "DebugActionIndex": 234,
       "ScannerIndex": 3
     },
     {
@@ -4466,7 +4484,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 234,
+      "DebugActionIndex": 235,
       "ScannerIndex": 3
     },
     {
@@ -4482,7 +4500,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 235,
+      "DebugActionIndex": 236,
       "ScannerIndex": 3
     },
     {
@@ -4498,7 +4516,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 236,
+      "DebugActionIndex": 237,
       "ScannerIndex": 3
     },
     {
@@ -4514,7 +4532,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 237,
+      "DebugActionIndex": 238,
       "ScannerIndex": 3
     },
     {
@@ -4530,7 +4548,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 238,
+      "DebugActionIndex": 239,
       "ScannerIndex": 3
     },
     {
@@ -4546,7 +4564,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 239,
+      "DebugActionIndex": 240,
       "ScannerIndex": 3
     },
     {
@@ -4562,7 +4580,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 240,
+      "DebugActionIndex": 241,
       "ScannerIndex": 3
     },
     {
@@ -4578,7 +4596,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 241,
+      "DebugActionIndex": 242,
       "ScannerIndex": 3
     },
     {
@@ -4594,7 +4612,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 242,
+      "DebugActionIndex": 243,
       "ScannerIndex": 3
     },
     {
@@ -4610,7 +4628,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 243,
+      "DebugActionIndex": 244,
       "ScannerIndex": 3
     },
     {
@@ -4626,7 +4644,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 244,
+      "DebugActionIndex": 245,
       "ScannerIndex": 3
     },
     {
@@ -4642,7 +4660,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 245,
+      "DebugActionIndex": 246,
       "ScannerIndex": 3
     },
     {
@@ -4658,7 +4676,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 246,
+      "DebugActionIndex": 247,
       "ScannerIndex": 3
     },
     {
@@ -4674,7 +4692,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 247,
+      "DebugActionIndex": 248,
       "ScannerIndex": 3
     },
     {
@@ -4690,7 +4708,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 248,
+      "DebugActionIndex": 249,
       "ScannerIndex": 3
     },
     {
@@ -4706,7 +4724,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 249,
+      "DebugActionIndex": 250,
       "ScannerIndex": 3
     },
     {
@@ -4722,7 +4740,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 250,
+      "DebugActionIndex": 251,
       "ScannerIndex": 3
     },
     {
@@ -4738,7 +4756,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 251,
+      "DebugActionIndex": 252,
       "ScannerIndex": 3
     },
     {
@@ -4754,7 +4772,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 252,
+      "DebugActionIndex": 253,
       "ScannerIndex": 3
     },
     {
@@ -4770,7 +4788,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 253,
+      "DebugActionIndex": 254,
       "ScannerIndex": 3
     },
     {
@@ -4786,7 +4804,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 254,
+      "DebugActionIndex": 255,
       "ScannerIndex": 3
     },
     {
@@ -4802,7 +4820,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 255,
+      "DebugActionIndex": 256,
       "ScannerIndex": 3
     },
     {
@@ -4818,7 +4836,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 256,
+      "DebugActionIndex": 257,
       "ScannerIndex": 3
     },
     {
@@ -4834,7 +4852,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 257,
+      "DebugActionIndex": 258,
       "ScannerIndex": 3
     },
     {
@@ -4850,7 +4868,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 258,
+      "DebugActionIndex": 259,
       "ScannerIndex": 3
     },
     {
@@ -4866,7 +4884,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 259,
+      "DebugActionIndex": 260,
       "ScannerIndex": 3
     },
     {
@@ -4882,7 +4900,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 260,
+      "DebugActionIndex": 261,
       "ScannerIndex": 3
     },
     {
@@ -4898,7 +4916,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 261,
+      "DebugActionIndex": 262,
       "ScannerIndex": 3
     },
     {
@@ -4914,7 +4932,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 262,
+      "DebugActionIndex": 263,
       "ScannerIndex": 3
     },
     {
@@ -4930,7 +4948,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 263,
+      "DebugActionIndex": 264,
       "ScannerIndex": 3
     },
     {
@@ -4946,7 +4964,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 264,
+      "DebugActionIndex": 265,
       "ScannerIndex": 3
     },
     {
@@ -4962,7 +4980,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 265,
+      "DebugActionIndex": 266,
       "ScannerIndex": 3
     },
     {
@@ -4978,7 +4996,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 266,
+      "DebugActionIndex": 267,
       "ScannerIndex": 3
     },
     {
@@ -4994,7 +5012,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 267,
+      "DebugActionIndex": 268,
       "ScannerIndex": 3
     },
     {
@@ -5010,7 +5028,23 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 268,
+      "DebugActionIndex": 269,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_Android_arm32 q8q9/fc3y2o3msfzh.o",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++\" -march=armv7-a -mfloat-abi=softfp -mfpu=neon-fp16 -marm -D__ARM_ARCH_7__ -D__ARM_ARCH_7A__ -D__ANDROID_API__=22 -DANDROID -DHAVE_INTTYPES_H -no-canonical-prefixes -funwind-tables -fstack-protector -fdiagnostics-format=msvc -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -g -O0 -fPIC -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DIL2CPP_ENABLE_WRITE_BARRIERS=1 -DIL2CPP_INCREMENTAL_TIME_SLICE=3 -DIL2CPP_DEBUG=1 -DHAVE_BDWGC_GC -D_DEBUG -I\".\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/pch\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/external/baselib/Include\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/Android/Include\" -o \"q8q9/fc3y2o3msfzh.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -target armv7a-linux-androideabi22 -fdiagnostics-format=msvc -c -x c \"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c\"",
+      "Inputs": [
+        "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c",
+        "C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++",
+        "C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar"
+      ],
+      "Outputs": [
+        "q8q9/fc3y2o3msfzh.o"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 270,
       "ScannerIndex": 3
     },
     {
@@ -5026,7 +5060,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 269,
+      "DebugActionIndex": 271,
       "ScannerIndex": 3
     },
     {
@@ -5042,7 +5076,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 270,
+      "DebugActionIndex": 272,
       "ScannerIndex": 3
     },
     {
@@ -5058,7 +5092,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 271,
+      "DebugActionIndex": 273,
       "ScannerIndex": 3
     },
     {
@@ -5074,7 +5108,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 272,
+      "DebugActionIndex": 274,
       "ScannerIndex": 3
     },
     {
@@ -5090,7 +5124,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 273,
+      "DebugActionIndex": 275,
       "ScannerIndex": 3
     },
     {
@@ -5106,7 +5140,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 274,
+      "DebugActionIndex": 276,
       "ScannerIndex": 3
     },
     {
@@ -5122,7 +5156,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 275,
+      "DebugActionIndex": 277,
       "ScannerIndex": 3
     },
     {
@@ -5138,7 +5172,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 276,
+      "DebugActionIndex": 278,
       "ScannerIndex": 3
     },
     {
@@ -5154,7 +5188,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 277,
+      "DebugActionIndex": 279,
       "ScannerIndex": 3
     },
     {
@@ -5170,7 +5204,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 278,
+      "DebugActionIndex": 280,
       "ScannerIndex": 3
     },
     {
@@ -5186,7 +5220,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 279,
+      "DebugActionIndex": 281,
       "ScannerIndex": 3
     },
     {
@@ -5202,7 +5236,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 280,
+      "DebugActionIndex": 282,
       "ScannerIndex": 3
     },
     {
@@ -5218,7 +5252,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 281,
+      "DebugActionIndex": 283,
       "ScannerIndex": 3
     },
     {
@@ -5234,7 +5268,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 282,
+      "DebugActionIndex": 284,
       "ScannerIndex": 3
     },
     {
@@ -5250,7 +5284,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 283,
+      "DebugActionIndex": 285,
       "ScannerIndex": 3
     },
     {
@@ -5266,7 +5300,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 284,
+      "DebugActionIndex": 286,
       "ScannerIndex": 3
     },
     {
@@ -5282,7 +5316,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 285,
+      "DebugActionIndex": 287,
       "ScannerIndex": 3
     },
     {
@@ -5298,7 +5332,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 286,
+      "DebugActionIndex": 288,
       "ScannerIndex": 3
     },
     {
@@ -5314,7 +5348,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 287,
+      "DebugActionIndex": 289,
       "ScannerIndex": 3
     },
     {
@@ -5330,7 +5364,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 288,
+      "DebugActionIndex": 290,
       "ScannerIndex": 3
     },
     {
@@ -5346,7 +5380,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 289,
+      "DebugActionIndex": 291,
       "ScannerIndex": 3
     },
     {
@@ -5362,7 +5396,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 290,
+      "DebugActionIndex": 292,
       "ScannerIndex": 3
     },
     {
@@ -5378,7 +5412,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 291,
+      "DebugActionIndex": 293,
       "ScannerIndex": 3
     },
     {
@@ -5394,7 +5428,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 292,
+      "DebugActionIndex": 294,
       "ScannerIndex": 3
     },
     {
@@ -5410,7 +5444,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 293,
+      "DebugActionIndex": 295,
       "ScannerIndex": 3
     },
     {
@@ -5426,7 +5460,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 294,
+      "DebugActionIndex": 296,
       "ScannerIndex": 3
     },
     {
@@ -5442,7 +5476,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 295,
+      "DebugActionIndex": 297,
       "ScannerIndex": 3
     },
     {
@@ -5458,7 +5492,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 296,
+      "DebugActionIndex": 298,
       "ScannerIndex": 3
     },
     {
@@ -5474,7 +5508,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 297,
+      "DebugActionIndex": 299,
       "ScannerIndex": 3
     },
     {
@@ -5490,7 +5524,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 298,
+      "DebugActionIndex": 300,
       "ScannerIndex": 3
     },
     {
@@ -5506,7 +5540,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 299,
+      "DebugActionIndex": 301,
       "ScannerIndex": 3
     },
     {
@@ -5522,7 +5556,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 300,
+      "DebugActionIndex": 302,
       "ScannerIndex": 3
     },
     {
@@ -5538,13 +5572,14 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 301,
+      "DebugActionIndex": 303,
       "ScannerIndex": 3
     },
     {
       "Annotation": "Link_Android_arm32 q8q9/libil2cpp.so",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++\" -march=armv7-a -mfloat-abi=softfp -mfpu=neon-fp16 -marm -D__ARM_ARCH_7__ -D__ARM_ARCH_7A__ -D__ANDROID_API__=22 -DANDROID -DHAVE_INTTYPES_H -no-canonical-prefixes -funwind-tables -fstack-protector -fdiagnostics-format=msvc -std=c++11 -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -g -O0 -fPIC -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -o \"q8q9/libil2cpp.so\" -fcolor-diagnostics -fdiagnostics-absolute-paths -target armv7a-linux-androideabi22 -fdiagnostics-format=msvc \"q8q9/s8fehlya5gkm.o\" \"q8q9/9oga1z9uxesh.o\" \"q8q9/qy0s1ywrtgnh.o\" \"q8q9/r6k9ledqxi4w.o\" \"q8q9/elhljz75og23.o\" \"q8q9/0ofek78eetgy.o\" \"q8q9/vi6knpndyl7e.o\" \"q8q9/vzdzea583ctx.o\" \"q8q9/b0w0znpztfb2.o\" \"q8q9/kieby973i689.o\" \"q8q9/5wxuqzuynda3.o\" \"q8q9/ms3ovgye62yn.o\" \"q8q9/k59jrpjxwzk0.o\" \"q8q9/m82n11313v9c.o\" \"q8q9/9bql2cojylkd.o\" \"q8q9/lg3cbw3y09eb.o\" \"q8q9/montvbkx4bwq.o\" \"q8q9/73qhblyu7z79.o\" \"q8q9/8bbyv0etb2op.o\" \"q8q9/trembatqeq08.o\" \"q8q9/e7harj7nhecs.o\" \"q8q9/ff2qbznmlgt7.o\" \"q8q9/0u5er81jo44q.o\" \"q8q9/urt9hm2g19vw.o\" \"q8q9/f7wxxvge4x7f.o\" \"q8q9/gfheibxc8zov.o\" \"q8q9/1uk2xkbabo0e.o\" \"q8q9/224ii0r8eqhu.o\" \"q8q9/ni86x955hetd.o\" \"q8q9/8xbvdjk3k24w.o\" \"q8q9/95vbyy01o4lc.o\" \"q8q9/kx33fkkp1qv4.o\" \"q8q9/roja2q8b7fv6.o\" \"q8q9/ww5kc22frefe.o\" \"q8q9/drnf7ybecj2g.o\" \"q8q9/nu6glfwkb43w.o\" \"q8q9/o2qx5ucjf6kc.o\" \"q8q9/9hull4qgiuwv.o\" \"q8q9/s35nbmdotpd5.o\" \"q8q9/kyvdccnxwnqq.o\" \"q8q9/vd6dxtetuwz5.o\" \"q8q9/tg564ej4xamg.o\" \"q8q9/i80p8jgyr7y2.o\" \"q8q9/3t9wvtrtjqmy.o\" \"q8q9/q80ukojl614p.o\" \"q8q9/klnvohznu8bh.o\" \"q8q9/nf18c30hugmz.o\" \"q8q9/ke48ay5skwrr.o\" \"q8q9/k0bzrexkryw0.o\" \"q8q9/odzvpjn61694.o\" \"q8q9/tjupc8l13ihn.o\" \"q8q9/pw5jwsnpcxpu.o\" \"q8q9/3j3b02mb3rgp.o\" \"q8q9/1rumkndnu968.o\" \"q8q9/oskxb6renc7m.o\" \"q8q9/qaro4w1zm7sy.o\" \"q8q9/yfxo6ayeio9d.o\" \"q8q9/yravmp7b7n36.o\" \"q8q9/k6ojwn1z928o.o\" \"q8q9/qq0fnt4sld0x.o\" \"q8q9/6zidcztr45li.o\" \"q8q9/ogau165dhqm2.o\" \"q8q9/hf6tv89j9axv.o\" \"q8q9/ay8lj46be19j.o\" \"q8q9/n9qmwkfv1exc.o\" \"q8q9/h3btiyypw3kq.o\" \"q8q9/r4jcb2wzzsgk.o\" \"q8q9/ddb217lizy5c.o\" \"q8q9/7dcxebg8pf1d.o\" \"q8q9/sg17wx629mj3.o\" \"q8q9/6st7m0qk054f.o\" \"q8q9/swhlmmoq4ye0.o\" \"q8q9/b5okacnu0s82.o\" \"q8q9/p1ed9trxbspa.o\" \"q8q9/gpiy0657i43o.o\" \"q8q9/wr0vzmnbw58t.o\" \"q8q9/g4u4o1p5u3ew.o\" \"q8q9/tdmgqr3ni9ew.o\" \"q8q9/rp1lr45rah4s.o\" \"q8q9/q5v8y96yzcgv.o\" \"q8q9/s01vwkyr9iao.o\" \"q8q9/vi0j4ee4xk2e.o\" \"q8q9/c1aigdgtm3ch.o\" \"q8q9/t8ggxw24osxd.o\" \"q8q9/dgwc1kkhcbmi.o\" \"q8q9/bzryu451tllh.o\" \"q8q9/tidtgvr7f2jc.o\" \"q8q9/odac631f9j92.o\" \"q8q9/mogy6luukcym.o\" \"q8q9/yoh8mo0xm31p.o\" \"q8q9/o42kfcp2e06k.o\" \"q8q9/4uajnx5s2pbz.o\" \"aa4b/lqjdyr17wyfa.o\" \"aa4b/q5zgzecdbb99.o\" \"o1sj/0a63p6sa96ub.o\" \"o1sj/5ftvk242uaww.o\" \"o1sj/7rpaink8wg7x.o\" \"o1sj/b8ks14c3bdev.o\" \"o1sj/d6jb779gbads.o\" \"o1sj/h5o5qhjqfs3o.o\" \"o1sj/i0brgj1d3m4j.o\" \"o1sj/j53vlx8n6bxs.o\" \"o1sj/lyf6m3ci2msi.o\" \"o1sj/mr4md6cjdwoe.o\" \"o1sj/odp5kgtsjlqs.o\" \"o1sj/sztw4y2gs5k5.o\" \"o1sj/unctk01btj4t.o\" \"o1sj/zctdnqvpm7xa.o\" \"tapa/0dske95mhljl.o\" \"tapa/0jthbc4l4e7l.o\" \"tapa/0o2k45hb4k04.o\" \"tapa/12cweyj6b5gg.o\" \"tapa/14lqjyxwnyws.o\" \"tapa/1ekto2ikfx86.o\" \"tapa/1rlacyuh0nz1.o\" \"tapa/29epxgasv6ec.o\" \"tapa/2oiif3y2zx97.o\" \"tapa/30o2vphcxe7d.o\" \"tapa/3hci34cdb2x3.o\" \"tapa/46bvelnmnwfx.o\" \"tapa/4rjve49cda4w.o\" \"tapa/4xubqahobdp1.o\" \"tapa/4yjtj3xlb60e.o\" \"tapa/5pk2c81d4gcb.o\" \"tapa/5zuckjoprxi2.o\" \"tapa/60olxzjcwqcg.o\" \"tapa/67rt317z0ssg.o\" \"tapa/6cwx9d70zmj5.o\" \"tapa/6o46mfrbp2uu.o\" \"tapa/7756yqwaykj1.o\" \"tapa/7g5trifs7s5v.o\" \"tapa/7km9b0o0btmv.o\" \"tapa/7sxkk74kn6z5.o\" \"tapa/87kavnx3ny3p.o\" \"tapa/9anbmru0jmul.o\" \"tapa/9kdcw26antge.o\" \"tapa/9qim29f4ubqu.o\" \"tapa/9vixvwx5dj3z.o\" \"tapa/a4dzbho6dara.o\" \"tapa/a7gg23dm8wqg.o\" \"tapa/ac82lf3ojmg0.o\" \"tapa/ag75p2rk9id4.o\" \"tapa/azvf8gyni7bi.o\" \"tapa/bduuvwl4uo5b.o\" \"tapa/bifqs9gblwp7.o\" \"tapa/bm18m5hrnmox.o\" \"tapa/bpbwwhl11q50.o\" \"tapa/btlfkyl74kqt.o\" \"tapa/d4on7389waw0.o\" \"tapa/dc665ao62m9x.o\" \"tapa/devy0d3a4xoa.o\" \"tapa/dlu0k1wxmebx.o\" \"tapa/dqry3bcq4c7a.o\" \"tapa/dvilnn1sf2wu.o\" \"tapa/dz68xydszsfn.o\" \"tapa/efzrc35rub4n.o\" \"tapa/esf7gxn5b90v.o\" \"tapa/esqlveqvv0h2.o\" \"tapa/f35z29ci6bed.o\" \"tapa/fz3kw21kcuv9.o\" \"tapa/get3ovzwbidp.o\" \"tapa/gi6fydxzmvcf.o\" \"tapa/gihrz6bwv8vh.o\" \"tapa/h43gsq6elop1.o\" \"tapa/hmk7k1ygfsk1.o\" \"tapa/hmwi5ftehpws.o\" \"tapa/hn8u4arfito1.o\" \"tapa/hvhq2fm71ufa.o\" \"tapa/i3siioifi3mg.o\" \"tapa/ica26yodumdc.o\" \"tapa/ifcyrwikqn3e.o\" \"tapa/ifl9ad87xghq.o\" \"tapa/ivfrqpy9ti9b.o\" \"tapa/j1r90ea0rocc.o\" \"tapa/j5bfckry5z6w.o\" \"tapa/jbokn5vby719.o\" \"tapa/jpjvkn6ref5b.o\" \"tapa/jwur9wkh0v3n.o\" \"tapa/k5606nrid5cn.o\" \"tapa/kgd1pcy1ksij.o\" \"tapa/knezty4ih45v.o\" \"tapa/kpdf87h4gmi1.o\" \"tapa/lccn5yfegqgz.o\" \"tapa/le3rk2mmavlb.o\" \"tapa/ll6z3uaxs002.o\" \"tapa/llg9phlf90wq.o\" \"tapa/lvkk86mhq2t6.o\" \"tapa/lyvrcl6buwxk.o\" \"tapa/meuxegkog1pg.o\" \"tapa/mhzb541r9564.o\" \"tapa/n6ohv62mdkmq.o\" \"tapa/nohj8vpm9kth.o\" \"tapa/nznjrkw5g8yd.o\" \"tapa/o4gi5280oghx.o\" \"tapa/oh69dt4fqcef.o\" \"tapa/onm7yqyy5whx.o\" \"tapa/oz8qnb92t7u2.o\" \"tapa/p9318za21134.o\" \"tapa/paf4gitpgt3l.o\" \"tapa/pefj6eccmov5.o\" \"tapa/pnjv7hqvj8an.o\" \"tapa/q7r193nq509b.o\" \"tapa/qc5msybhnb5d.o\" \"tapa/qiy1ssu9cof8.o\" \"tapa/qjc9dh7r9xo4.o\" \"tapa/rvp5vpdhb34p.o\" \"tapa/rzd1aq1llxss.o\" \"tapa/sfca40bcdxup.o\" \"tapa/srtc6a93brmd.o\" \"tapa/t14atrkwaac9.o\" \"tapa/t2pn87spdky8.o\" \"tapa/tcajeflqzpfx.o\" \"tapa/tn87r7m2y5jg.o\" \"tapa/u0ewzwn15sn7.o\" \"tapa/ufjx9e4u6xkk.o\" \"tapa/uh1tu61mvqpk.o\" \"tapa/v91nk475reng.o\" \"tapa/w7tou0dk3ain.o\" \"tapa/x4uhpkz3s4eu.o\" \"tapa/xkvqn4rkfz17.o\" \"tapa/xuh2c17il52q.o\" \"tapa/xv6749f8wv6s.o\" \"tapa/yexa9ndn35z3.o\" \"tapa/ysc6lc69nu3a.o\" \"tapa/yuxjpbuwsvz9.o\" \"tapa/zgzc3b03laqq.o\" \"tapa/zkxxj135oh0z.o\" \"tapa/zp1xjea7n0ve.o\" \"tapa/zq46v8bozqyh.o\" \"tapa/zxmb1e59ik2p.o\" -Wl,--wrap,sigaction -Wl,--wrap,sigaction -fuse-ld=gold.exe -Wl,--gc-sections -Wl,--fatal-warnings -Wl,-soname=libil2cpp.so -Wl,--no-undefined -Wl,--build-id -Wl,-z,noexecstack -shared -rdynamic -static-libstdc++  -Wl,-z,relro \"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/jniStaticLibs/armeabi-v7a/baselib.a\" -l\"log\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++\" -march=armv7-a -mfloat-abi=softfp -mfpu=neon-fp16 -marm -D__ARM_ARCH_7__ -D__ARM_ARCH_7A__ -D__ANDROID_API__=22 -DANDROID -DHAVE_INTTYPES_H -no-canonical-prefixes -funwind-tables -fstack-protector -fdiagnostics-format=msvc -std=c++11 -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -g -O0 -fPIC -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -o \"q8q9/libil2cpp.so\" -fcolor-diagnostics -fdiagnostics-absolute-paths -target armv7a-linux-androideabi22 -fdiagnostics-format=msvc \"q8q9/bw8x24rokiy2.o\" \"q8q9/s8fehlya5gkm.o\" \"q8q9/9oga1z9uxesh.o\" \"q8q9/qy0s1ywrtgnh.o\" \"q8q9/r6k9ledqxi4w.o\" \"q8q9/elhljz75og23.o\" \"q8q9/0ofek78eetgy.o\" \"q8q9/vi6knpndyl7e.o\" \"q8q9/vzdzea583ctx.o\" \"q8q9/b0w0znpztfb2.o\" \"q8q9/kieby973i689.o\" \"q8q9/5wxuqzuynda3.o\" \"q8q9/ms3ovgye62yn.o\" \"q8q9/k59jrpjxwzk0.o\" \"q8q9/m82n11313v9c.o\" \"q8q9/9bql2cojylkd.o\" \"q8q9/lg3cbw3y09eb.o\" \"q8q9/montvbkx4bwq.o\" \"q8q9/73qhblyu7z79.o\" \"q8q9/8bbyv0etb2op.o\" \"q8q9/trembatqeq08.o\" \"q8q9/e7harj7nhecs.o\" \"q8q9/ff2qbznmlgt7.o\" \"q8q9/0u5er81jo44q.o\" \"q8q9/urt9hm2g19vw.o\" \"q8q9/f7wxxvge4x7f.o\" \"q8q9/gfheibxc8zov.o\" \"q8q9/1uk2xkbabo0e.o\" \"q8q9/224ii0r8eqhu.o\" \"q8q9/ni86x955hetd.o\" \"q8q9/8xbvdjk3k24w.o\" \"q8q9/95vbyy01o4lc.o\" \"q8q9/kx33fkkp1qv4.o\" \"q8q9/roja2q8b7fv6.o\" \"q8q9/ww5kc22frefe.o\" \"q8q9/drnf7ybecj2g.o\" \"q8q9/nu6glfwkb43w.o\" \"q8q9/o2qx5ucjf6kc.o\" \"q8q9/9hull4qgiuwv.o\" \"q8q9/s35nbmdotpd5.o\" \"q8q9/kyvdccnxwnqq.o\" \"q8q9/vd6dxtetuwz5.o\" \"q8q9/tg564ej4xamg.o\" \"q8q9/i80p8jgyr7y2.o\" \"q8q9/3t9wvtrtjqmy.o\" \"q8q9/q80ukojl614p.o\" \"q8q9/klnvohznu8bh.o\" \"q8q9/nf18c30hugmz.o\" \"q8q9/ke48ay5skwrr.o\" \"q8q9/k0bzrexkryw0.o\" \"q8q9/odzvpjn61694.o\" \"q8q9/tjupc8l13ihn.o\" \"q8q9/pw5jwsnpcxpu.o\" \"q8q9/3j3b02mb3rgp.o\" \"q8q9/1rumkndnu968.o\" \"q8q9/oskxb6renc7m.o\" \"q8q9/qaro4w1zm7sy.o\" \"q8q9/yfxo6ayeio9d.o\" \"q8q9/yravmp7b7n36.o\" \"q8q9/k6ojwn1z928o.o\" \"q8q9/fc3y2o3msfzh.o\" \"q8q9/qq0fnt4sld0x.o\" \"q8q9/6zidcztr45li.o\" \"q8q9/ogau165dhqm2.o\" \"q8q9/hf6tv89j9axv.o\" \"q8q9/ay8lj46be19j.o\" \"q8q9/n9qmwkfv1exc.o\" \"q8q9/h3btiyypw3kq.o\" \"q8q9/r4jcb2wzzsgk.o\" \"q8q9/ddb217lizy5c.o\" \"q8q9/7dcxebg8pf1d.o\" \"q8q9/sg17wx629mj3.o\" \"q8q9/6st7m0qk054f.o\" \"q8q9/swhlmmoq4ye0.o\" \"q8q9/b5okacnu0s82.o\" \"q8q9/p1ed9trxbspa.o\" \"q8q9/gpiy0657i43o.o\" \"q8q9/wr0vzmnbw58t.o\" \"q8q9/g4u4o1p5u3ew.o\" \"q8q9/tdmgqr3ni9ew.o\" \"q8q9/rp1lr45rah4s.o\" \"q8q9/q5v8y96yzcgv.o\" \"q8q9/s01vwkyr9iao.o\" \"q8q9/vi0j4ee4xk2e.o\" \"q8q9/c1aigdgtm3ch.o\" \"q8q9/t8ggxw24osxd.o\" \"q8q9/dgwc1kkhcbmi.o\" \"q8q9/bzryu451tllh.o\" \"q8q9/tidtgvr7f2jc.o\" \"q8q9/odac631f9j92.o\" \"q8q9/mogy6luukcym.o\" \"q8q9/yoh8mo0xm31p.o\" \"q8q9/o42kfcp2e06k.o\" \"q8q9/4uajnx5s2pbz.o\" \"aa4b/lqjdyr17wyfa.o\" \"aa4b/q5zgzecdbb99.o\" \"o1sj/0a63p6sa96ub.o\" \"o1sj/5ftvk242uaww.o\" \"o1sj/7rpaink8wg7x.o\" \"o1sj/b8ks14c3bdev.o\" \"o1sj/d6jb779gbads.o\" \"o1sj/h5o5qhjqfs3o.o\" \"o1sj/i0brgj1d3m4j.o\" \"o1sj/j53vlx8n6bxs.o\" \"o1sj/lyf6m3ci2msi.o\" \"o1sj/mr4md6cjdwoe.o\" \"o1sj/odp5kgtsjlqs.o\" \"o1sj/sztw4y2gs5k5.o\" \"o1sj/unctk01btj4t.o\" \"o1sj/zctdnqvpm7xa.o\" \"tapa/0dske95mhljl.o\" \"tapa/0jthbc4l4e7l.o\" \"tapa/0o2k45hb4k04.o\" \"tapa/12cweyj6b5gg.o\" \"tapa/14lqjyxwnyws.o\" \"tapa/1ekto2ikfx86.o\" \"tapa/1rlacyuh0nz1.o\" \"tapa/29epxgasv6ec.o\" \"tapa/2oiif3y2zx97.o\" \"tapa/30o2vphcxe7d.o\" \"tapa/3hci34cdb2x3.o\" \"tapa/46bvelnmnwfx.o\" \"tapa/4rjve49cda4w.o\" \"tapa/4xubqahobdp1.o\" \"tapa/4yjtj3xlb60e.o\" \"tapa/5pk2c81d4gcb.o\" \"tapa/5zuckjoprxi2.o\" \"tapa/60olxzjcwqcg.o\" \"tapa/67rt317z0ssg.o\" \"tapa/6cwx9d70zmj5.o\" \"tapa/6o46mfrbp2uu.o\" \"tapa/7756yqwaykj1.o\" \"tapa/7g5trifs7s5v.o\" \"tapa/7km9b0o0btmv.o\" \"tapa/7sxkk74kn6z5.o\" \"tapa/87kavnx3ny3p.o\" \"tapa/9anbmru0jmul.o\" \"tapa/9kdcw26antge.o\" \"tapa/9qim29f4ubqu.o\" \"tapa/9vixvwx5dj3z.o\" \"tapa/a4dzbho6dara.o\" \"tapa/a7gg23dm8wqg.o\" \"tapa/ac82lf3ojmg0.o\" \"tapa/ag75p2rk9id4.o\" \"tapa/azvf8gyni7bi.o\" \"tapa/bduuvwl4uo5b.o\" \"tapa/bifqs9gblwp7.o\" \"tapa/bm18m5hrnmox.o\" \"tapa/bpbwwhl11q50.o\" \"tapa/btlfkyl74kqt.o\" \"tapa/d4on7389waw0.o\" \"tapa/dc665ao62m9x.o\" \"tapa/devy0d3a4xoa.o\" \"tapa/dlu0k1wxmebx.o\" \"tapa/dqry3bcq4c7a.o\" \"tapa/dvilnn1sf2wu.o\" \"tapa/dz68xydszsfn.o\" \"tapa/efzrc35rub4n.o\" \"tapa/esf7gxn5b90v.o\" \"tapa/esqlveqvv0h2.o\" \"tapa/f35z29ci6bed.o\" \"tapa/fz3kw21kcuv9.o\" \"tapa/get3ovzwbidp.o\" \"tapa/gi6fydxzmvcf.o\" \"tapa/gihrz6bwv8vh.o\" \"tapa/h43gsq6elop1.o\" \"tapa/hmk7k1ygfsk1.o\" \"tapa/hmwi5ftehpws.o\" \"tapa/hn8u4arfito1.o\" \"tapa/hvhq2fm71ufa.o\" \"tapa/i3siioifi3mg.o\" \"tapa/ica26yodumdc.o\" \"tapa/ifcyrwikqn3e.o\" \"tapa/ifl9ad87xghq.o\" \"tapa/ivfrqpy9ti9b.o\" \"tapa/j1r90ea0rocc.o\" \"tapa/j5bfckry5z6w.o\" \"tapa/jbokn5vby719.o\" \"tapa/jpjvkn6ref5b.o\" \"tapa/jwur9wkh0v3n.o\" \"tapa/k5606nrid5cn.o\" \"tapa/kgd1pcy1ksij.o\" \"tapa/knezty4ih45v.o\" \"tapa/kpdf87h4gmi1.o\" \"tapa/lccn5yfegqgz.o\" \"tapa/le3rk2mmavlb.o\" \"tapa/ll6z3uaxs002.o\" \"tapa/llg9phlf90wq.o\" \"tapa/lvkk86mhq2t6.o\" \"tapa/lyvrcl6buwxk.o\" \"tapa/meuxegkog1pg.o\" \"tapa/mhzb541r9564.o\" \"tapa/n6ohv62mdkmq.o\" \"tapa/nohj8vpm9kth.o\" \"tapa/nznjrkw5g8yd.o\" \"tapa/o4gi5280oghx.o\" \"tapa/oh69dt4fqcef.o\" \"tapa/onm7yqyy5whx.o\" \"tapa/oz8qnb92t7u2.o\" \"tapa/p9318za21134.o\" \"tapa/paf4gitpgt3l.o\" \"tapa/pefj6eccmov5.o\" \"tapa/pnjv7hqvj8an.o\" \"tapa/q7r193nq509b.o\" \"tapa/qc5msybhnb5d.o\" \"tapa/qiy1ssu9cof8.o\" \"tapa/qjc9dh7r9xo4.o\" \"tapa/rvp5vpdhb34p.o\" \"tapa/rzd1aq1llxss.o\" \"tapa/sfca40bcdxup.o\" \"tapa/srtc6a93brmd.o\" \"tapa/t14atrkwaac9.o\" \"tapa/t2pn87spdky8.o\" \"tapa/tcajeflqzpfx.o\" \"tapa/tn87r7m2y5jg.o\" \"tapa/u0ewzwn15sn7.o\" \"tapa/ufjx9e4u6xkk.o\" \"tapa/uh1tu61mvqpk.o\" \"tapa/v91nk475reng.o\" \"tapa/w7tou0dk3ain.o\" \"tapa/x4uhpkz3s4eu.o\" \"tapa/xkvqn4rkfz17.o\" \"tapa/xuh2c17il52q.o\" \"tapa/xv6749f8wv6s.o\" \"tapa/yexa9ndn35z3.o\" \"tapa/ysc6lc69nu3a.o\" \"tapa/yuxjpbuwsvz9.o\" \"tapa/zgzc3b03laqq.o\" \"tapa/zkxxj135oh0z.o\" \"tapa/zp1xjea7n0ve.o\" \"tapa/zq46v8bozqyh.o\" \"tapa/zxmb1e59ik2p.o\" -Wl,--wrap,sigaction -Wl,--wrap,sigaction -fuse-ld=gold.exe -Wl,--gc-sections -Wl,--fatal-warnings -Wl,-soname=libil2cpp.so -Wl,--no-undefined -Wl,--build-id -Wl,-z,noexecstack -shared -rdynamic -static-libstdc++  -Wl,-z,relro \"D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/jniStaticLibs/armeabi-v7a/baselib.a\" -l\"log\"",
       "Inputs": [
+        "q8q9/bw8x24rokiy2.o",
         "q8q9/s8fehlya5gkm.o",
         "q8q9/9oga1z9uxesh.o",
         "q8q9/qy0s1ywrtgnh.o",
@@ -5604,6 +5639,7 @@
         "q8q9/yfxo6ayeio9d.o",
         "q8q9/yravmp7b7n36.o",
         "q8q9/k6ojwn1z928o.o",
+        "q8q9/fc3y2o3msfzh.o",
         "q8q9/qq0fnt4sld0x.o",
         "q8q9/6zidcztr45li.o",
         "q8q9/ogau165dhqm2.o",
@@ -6011,12 +6047,14 @@
         298,
         299,
         300,
-        301
+        301,
+        302,
+        303
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
       "CachingMode": "ByLeafInputs",
-      "DebugActionIndex": 302
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "CopyFiles D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/build/il2cpp_armeabi-v7a_Debug/il2cpp_cache/buildstate/artifacts/objcopy_drao/libil2cpp.dbg.so",
@@ -6028,9 +6066,9 @@
         "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/build/il2cpp_armeabi-v7a_Debug/il2cpp_cache/buildstate/artifacts/objcopy_drao/libil2cpp.dbg.so"
       ],
       "ToBuildDependencies": [
-        302
+        304
       ],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "NdkObjCopy D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/build/il2cpp_armeabi-v7a_Debug/il2cpp_cache/buildstate/artifacts/objcopy_drao/stripped/libil2cpp.so",
@@ -6043,10 +6081,10 @@
         "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/build/il2cpp_armeabi-v7a_Debug/il2cpp_cache/buildstate/artifacts/objcopy_drao/stripped/libil2cpp.so"
       ],
       "ToBuildDependencies": [
-        303
+        305
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 304
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "NdkObjCopy D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/build/il2cpp_armeabi-v7a_Debug/il2cpp_cache/buildstate/artifacts/objcopy_drao/libil2cpp.sym.so",
@@ -6058,10 +6096,10 @@
         "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/build/il2cpp_armeabi-v7a_Debug/il2cpp_cache/buildstate/artifacts/objcopy_drao/libil2cpp.sym.so"
       ],
       "ToBuildDependencies": [
-        303
+        305
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 305
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "NdkObjCopy D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/build/il2cpp_armeabi-v7a_Debug/il2cpp_cache/buildstate/artifacts/objcopy_drao/libil2cpp.so",
@@ -6074,11 +6112,11 @@
         "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/build/il2cpp_armeabi-v7a_Debug/il2cpp_cache/buildstate/artifacts/objcopy_drao/libil2cpp.so"
       ],
       "ToBuildDependencies": [
-        304,
-        305
+        306,
+        307
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 306
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "CopyFiles D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so",
@@ -6090,15 +6128,15 @@
         "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so"
       ],
       "ToBuildDependencies": [
-        306,
         308,
-        309
+        310,
+        311
       ],
       "ToUseDependencies": [
-        308,
-        309
+        310,
+        311
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "CopyFiles D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.dbg.so",
@@ -6110,13 +6148,13 @@
         "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.dbg.so"
       ],
       "ToBuildDependencies": [
-        302,
-        309
+        304,
+        311
       ],
       "ToUseDependencies": [
-        309
+        311
       ],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "CopyFiles D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.sym.so",
@@ -6128,9 +6166,9 @@
         "D:/CDCN_Group5/hoa_lo_assistant/unity/HoaLoAR/apk/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.sym.so"
       ],
       "ToBuildDependencies": [
-        305
+        307
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "FinalProgram",
@@ -6138,10 +6176,10 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        307
+        309
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 310
+      "DebugActionIndex": 312
     }
   ],
   "FileSignatures": [
@@ -7289,7 +7327,7 @@
   "EmitDataForBeeWhy": 1,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "FinalProgram": 310
+          "FinalProgram": 312
         }
 ,  "DefaultNodes": [
     0

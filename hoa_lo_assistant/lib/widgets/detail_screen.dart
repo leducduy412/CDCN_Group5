@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hoa_lo_assistant/ar_screen/ar_screen.dart';
 import 'package:hoa_lo_assistant/global.dart';
 import 'package:hoa_lo_assistant/widgets/video_screen.dart';
 
@@ -157,7 +158,13 @@ class _DetailScreenState extends State<DetailScreen> {
           if (list_ar[list_area.indexOf(is_choosen_onlyname)] == true)
             BottomNavigationBarItem(
               icon: GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ARScreen()),
+                      //MaterialPageRoute(builder: (context) => MainScreen()),
+                    );
+                  },
                   child: SizedBox(
                     width: 30,
                     height: 30,
