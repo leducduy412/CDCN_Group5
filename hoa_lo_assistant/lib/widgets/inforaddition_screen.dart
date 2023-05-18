@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hoa_lo_assistant/widgets/video_screen.dart';
 
@@ -18,7 +19,7 @@ class _InforAdditionScreenState extends State<InforAdditionScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarTop2(title: 'Thông tin bổ sung'),
+      appBar: AppBarTop2(title: 'Thông tin bổ sung'.tr),
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(

@@ -3,16 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:hoa_lo_assistant/ar_screen/ar_screen.dart';
 import 'package:hoa_lo_assistant/widgets/main_screen.dart';
 import 'package:hoa_lo_assistant/widgets/option_screen.dart';
+import 'package:get/get.dart';
+import 'package:hoa_lo_assistant/global.dart' as global;
+
+import 'localestring.dart';
 
 List<CameraDescription> cameras = [];
 
 Future<void> main() async {
-  try {
-    WidgetsFlutterBinding.ensureInitialized();
-    cameras = await availableCameras();
-  } on CameraException catch (e) {
-    print('Error in fetching the cameras: $e');
-  }
+  // try {
+  //   WidgetsFlutterBinding.ensureInitialized();
+  //   cameras = await availableCameras();
+  // } on CameraException catch (e) {
+  //   print('Error in fetching the cameras: $e');
+  // }
   runApp(MyApp());
 }
 
@@ -22,8 +26,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Flutter Demo',
+      translations: LocalString(),
+      locale: updateLanguage(),
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -38,5 +44,12 @@ class MyApp extends StatelessWidget {
       ),
       home: MainScreen(),
     );
+  }
+
+  Locale updateLanguage() {
+    if (global.language == "Vietnamese") {
+      return const Locale('vi', 'vi');
+    } else
+      return Locale('vi', 'en');
   }
 }

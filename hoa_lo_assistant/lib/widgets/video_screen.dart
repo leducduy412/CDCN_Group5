@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:video_player/video_player.dart';
 import 'package:chewie/chewie.dart';
@@ -25,7 +26,7 @@ class _VideoScreenState extends State<VideoScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarTop2(title: 'Tư liệu'),
+      appBar: AppBarTop2(title: 'Tư liệu'.tr),
       body: LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
           final maxHeight = constraints.maxHeight;

@@ -2,13 +2,13 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hoa_lo_assistant/ar_screen/ar_screen.dart';
 import 'package:hoa_lo_assistant/global.dart';
 import 'package:hoa_lo_assistant/widgets/video_screen.dart';
 
 import 'inforaddition_screen.dart';
-import 'main_screen.dart';
 
 class DetailScreen extends StatefulWidget {
   final String title;
@@ -35,11 +35,23 @@ class _DetailScreenState extends State<DetailScreen> {
     // ignore: duplicate_ignore
     setState(() {
       images = data['images']['image'] as List;
-      image_text = data['images']['text'] as String;
-      add_text = data['addition_text'] as String;
-      video_text = data['videos']['text'] as String;
+      if (language == "Vietnamese")
+        image_text = data['images']['text'] as String;
+      else
+        image_text = data['images']['text_eng'] as String;
+      if (language == "Vietnamese")
+        add_text = data['addition_text'] as String;
+      else
+        add_text = data['addition_text_eng'] as String;
+      if (language == "Vietnamese")
+        video_text = data['videos']['text'] as String;
+      else
+        video_text = data['videos']['text_eng'] as String;
       String s = data['videos']['video'] as String;
-      title = data['videos']['title'] as String;
+      if (language == "Vietnamese")
+        title = data['videos']['title'] as String;
+      else
+        title = data['videos']['title_eng'] as String;
       video = VideoPlayerWidget(videoPath: s);
     });
   }
@@ -126,7 +138,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   height: 30,
                   child: Icon(Icons.info_outline, color: Colors.black)),
             ),
-            label: 'Thông tin bổ sung',
+            label: 'Thông tin bổ sung'.tr,
           ),
           BottomNavigationBarItem(
             icon: GestureDetector(
@@ -145,7 +157,7 @@ class _DetailScreenState extends State<DetailScreen> {
                 child: Icon(Icons.play_circle_fill, color: Colors.black),
               ),
             ),
-            label: 'Tư liệu lịch sử',
+            label: 'Tư liệu lịch sử'.tr,
           ),
           // BottomNavigationBarItem(
           //   icon: SizedBox(

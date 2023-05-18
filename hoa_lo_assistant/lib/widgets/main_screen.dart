@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hoa_lo_assistant/widgets/option_screen.dart';
 
@@ -56,7 +57,7 @@ class _MainScreenState extends State<MainScreen> {
                   ),
                   child: Center(
                     child: Text(
-                      'Bắt đầu',
+                      'Bắt đầu'.tr,
                       textAlign: TextAlign.justify,
                       style: GoogleFonts.openSans(
                         textStyle: const TextStyle(

@@ -40,6 +40,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_unity_widget: ^2022.2.0
   camera: ^0.10.4
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_test:
@@ -96,6 +97,7 @@ flutter:
     - assets/image/trainu/trainu_02.jpg
     - assets/image/trainu/trainu_03.jpg
     - assets/videos/trainam.mp4
+    - assets/icon/language.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
