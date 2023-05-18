@@ -10,7 +10,10 @@ import 'package:hoa_lo_assistant/widgets/option_screen.dart';
 import '../main.dart';
 
 class ARScreen extends StatefulWidget {
-  const ARScreen({super.key});
+  final String title;
+  final String image;
+
+  const ARScreen({super.key, required this.title, required this.image});
 
   @override
   State<ARScreen> createState() => _ARScreenState();
@@ -135,9 +138,9 @@ class _ARScreenState extends State<ARScreen> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Image.asset('assets/image/May chem.png'),
+          Image.asset(widget.image),
           Text(
-            'Máy chém',
+            widget.title,
             style: GoogleFonts.openSans(
               color: Colors.black,
               fontWeight: FontWeight.w500,

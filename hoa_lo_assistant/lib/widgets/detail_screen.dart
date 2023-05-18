@@ -161,7 +161,9 @@ class _DetailScreenState extends State<DetailScreen> {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => ARScreen()),
+                      MaterialPageRoute(
+                          builder: (context) =>
+                              ARScreen(title: widget.title, image: images[0])),
                       //MaterialPageRoute(builder: (context) => MainScreen()),
                     );
                   },
